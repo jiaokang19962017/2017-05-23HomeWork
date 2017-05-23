@@ -4,14 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1
+namespace ConsoleApplication4
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Student1 stu = new Student1(14,"焦康");
-            stu.AboutMe();
+
+            Jiaokang stu = new Jiaokang();
+            stu.Avg(100,120);
+            stu.Sum(100, 120);
         }
     }
 }

@@ -4,14 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1
+namespace ConsoleApplication3
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Student1 stu = new Student1(14,"焦康");
-            stu.AboutMe();
+            Car c1 = new MountainBike();
+            (c1 as MountainBike).PlusSpeed();
+            (c1 as MountainBike).Match();
         }
     }
 }
